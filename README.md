@@ -25,7 +25,8 @@ This project involves creating a web interface to enable customers to upload tra
 
 The FullStackTestByCoodesh project is composed of two modules: Backend and Frontend. Each module has its own repository, and the README files in each repository provide instructions on how to use them.
 
-**Important: First install Backend, then Frontend**
+**Important: First install Backend, then Frontend** <br>
+To ensure seamless communication between modules, install the backend first. Docker Compose creates a network, enabling the frontend to connect to the backend effortlessly. Follow this sequence: Backend installation before frontend, ensuring proper connections and smooth functionality for the web interface's transaction uploads.
 
 VideoURL: to-do
 
